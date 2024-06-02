@@ -1,8 +1,8 @@
-# Cloud-Type-Identifier
-This is an app which utilizes a classification model to determine the type of cloud based on a photo.
+# Cloud Type Classifier
+This was *meant* to be made into an app which could classify the type of clouds by taking a picture on your phone.
 
-This is just a side project because I always wonder which types of clouds are in the sky.
+However, there's very little data on cloud types, so the only way I could think to make a dataset was to webscrape images with a query for each type of cloud.
 
-The plan is to create a dataset by scraping cloud images under a query for a specific type, then labelling them with that query.
+Unfortunately, it didn't end up working very well because the data is pretty poor quality and there tends to be a lot of co-mingleing of types within each query
 
-Then, I'm going to try to train a CNN classification model on the images.
+There's probably a way to use unsupervised learning, but there's still a lot of challenges to face there, so I decided to put this one on the backburner for now.
